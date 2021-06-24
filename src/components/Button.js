@@ -1,6 +1,7 @@
 import React from "react";
 import "./Button.scss";
 
-export default function Button({ children }) {
-  return <button className="Button">{children}</button>;
+//size: large, medium, small
+export default function Button({ children, size }) {
+  return <button className={`Button ${size}`}>{children}</button>;
 }
