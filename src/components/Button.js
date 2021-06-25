@@ -19,7 +19,6 @@ export default function Button({
         fullWidth,
       })}
       {...rest}
-      className
     >
       {children}
     </button>
